@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background-image: url("./bg_i.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #ffd700;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+.glow {
+    font-size: 2rem;
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ff8c00, 0 0 40px #ff4500;
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(223, 163, 0);
+    font-size: 1.2rem;
+}
+
+.rune-box {
+    width: 20em;
+    height: auto;
+    background: linear-gradient(120deg, rgba(255, 215, 0, 0.3), rgba(248, 248, 248, 0.3));
+    padding: 1em;
+    border-radius: 0.2em;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+    font-size: 1.8em;
+    letter-spacing: 5px;
+    margin-top: 0.4em;
+}
+
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 0 0 5px black;
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+.hidden {
+    display: none;
+    font-size: 1.5em;
+    color: #00ff00;
+    margin-top: 20px;
+}

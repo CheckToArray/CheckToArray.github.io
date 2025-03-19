@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIELD Secure Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-screen">
+            <h2>⚠ SHIELD SECURE TERMINAL ⚠</h2>
+            <p>Enter Access Code:</p>
+            <form onsubmit="validateLogin(); return false;">
+                <input type="password" id="password" placeholder="********" autocomplete>
+                <button type="submit">Access</button>
+            </form>            
+            <p id="error-msg"></p>
+        </div>
+
+        <div id="terminal-screen" class="hidden">
+            <h2>🛡 S.H.I.E.L.D. INTELLIGENCE DATABASE 🛡</h2>
+            <div id="terminal-output">
+                <p>Initializing system...</p>
+            </div>
+            
+            <button class="download-btn" onclick="downloadFile()">Download Directive</button>
+            <div id="hint-section" class="hidden">
+                <p class="hint">🔍 Hint: "A document is more than what meets the eye."</p> <!-- (ZIP it) -->
+                <p class="hint">🔍 Hint: "Metadata holds secrets."</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

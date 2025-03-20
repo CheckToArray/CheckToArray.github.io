@@ -83,7 +83,7 @@ function showTauntMessage() {
         "You’ve come so far… but it’s not enough.",
         "Do you even know what you’re doing?",
         "One more step? No, fifty more.",
-        "I should have made it harder.",
+        "I have made it harder, I guess",
         "Base64? Please.",
         "Keep digging, maybe you’ll find a flag.",
         "This challenge isn’t for the weak.",

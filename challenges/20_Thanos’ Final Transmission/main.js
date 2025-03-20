@@ -118,11 +118,11 @@ function showTauntMessage() {
     
     setTimeout(() => {
         tauntBox.classList.add("fade-out");
+        tauntActive = false;
         setTimeout(() => {
             tauntBox.remove();
-            tauntActive = false;
         }, 6000);
-    }, 7000);
+    }, 6000);
 }
 
 function downloadPCAP() {

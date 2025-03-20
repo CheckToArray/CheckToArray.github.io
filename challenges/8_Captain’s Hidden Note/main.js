@@ -1,5 +1,6 @@
 
 document.getElementById("downloadBtn").addEventListener("click", function () {
+    document.getElementById("downloadBtn").style.display = "none";
     document.getElementById("inputContainer").classList.remove("hidden");
     const link = document.createElement("a");
     link.href = "captains_note.txt"; 
